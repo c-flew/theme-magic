@@ -987,8 +987,8 @@ nil."
      `(linum ((,class (:foreground ,lnum :background ,bg2 :inherit default))))
 
 ;;;;; line-numbers
-     `(line-number ((,class (:foreground ,lnum :background ,bg2 :inherit default))))
-     `(line-number-current-line ((,class (:foreground ,base :background ,bg2 :inherit line-number))))
+     `(line-number ((,class (:foreground ,lnum :background ,bg1 :inherit default))))
+     `(line-number-current-line ((,class (:foreground ,base :background ,bg1 :inherit line-number))))
 
 ;;;;; linum-relative
      `(linum-relative-current-face ((,class (:foreground ,comp))))
